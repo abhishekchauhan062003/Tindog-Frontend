@@ -1,0 +1,178 @@
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat', sans-serif;   /*  multiple selector */
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  color=#8f8f8f;
+}
+
+/* headings */
+.bigheading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+/* navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+/* title */
+#title .container-fuild{
+padding: 3% 15% 7%;
+  text-align: left;                           /* hierarchical selector */
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* image */
+.iphone {
+  position: absolute;
+  left: 57%;
+  width: 20%;
+  transform: rotate(25deg);
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.image {
+  padding: 5%;
+}
+
+.icon {
+  padding: 7%;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials Section */
+#testimonials {
+  color: #fff;
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+  {
+  color: #8f8f8f;
+}
+
+.testimonial-image {
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+#press {
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  .iphone {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  font-size: 2.7rem;
+  padding: 4% 0;
+  color: #fff;
+  background-color: #ff4c68;
+}
+
+#footer {
+  padding: 4% 15%;
+
+}
+
+.fonta-icon {
+  padding: 100px 7.5px 20px 7.5px;
+}
+
+/* Sections */
+.colored-section{
+  color: #fff;
+  background-color: #ff4c68;
+}
+.white-section{
+  background-color: #fff;
+}
